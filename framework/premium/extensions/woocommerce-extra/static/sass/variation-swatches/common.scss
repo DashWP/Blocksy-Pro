@@ -1,0 +1,67 @@
+.ct-variation-swatches {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--swatches-gap, 10px);
+}
+
+
+// swatch container
+.ct-swatch-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	border-radius: var(--swatch-border-radius);
+
+	.ct-swatch {
+		position: relative;
+		cursor: pointer;
+		overflow: clip;
+		border-radius: inherit;
+		height: var(--swatch-size, 30px);
+	}
+
+
+	// swatch state
+	&.disabled {
+		opacity: 0.4;
+		pointer-events: none;
+	}
+
+	&.ct-out-of-stock .ct-swatch {
+		opacity: 0.4;
+	}
+
+
+	// tooltip
+	.ct-tooltip {		
+		transform: translate3d(0px, calc(-100% - 7px), 0px);
+
+		
+		&[data-tooltip-type="image"] {
+			height: auto;
+			padding: 7px;
+		}
+
+		.ct-media-container {
+			width: 80px;
+		}
+	}
+
+	&:hover {
+		.ct-tooltip {
+			opacity: 1;
+			visibility: visible;
+			transform: translate3d(0px, calc(-100% - 12px), 0px);
+		}
+	}
+}
+
+
+// swatch shape
+[data-swatches-shape='round'] {
+	--swatch-border-radius: 200px;
+}
+
+[data-swatches-shape='square'] {
+	--swatch-border-radius: 3px;
+}

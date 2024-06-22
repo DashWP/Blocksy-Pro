@@ -1,0 +1,1589 @@
+2.0.55: 2024-06-21
+- Improvement: Minor issue in editing UI of the Newsletter Extension
+
+2.0.54: 2024-06-17
+- Improvement: Shop Extra - Filters - Taxonomies lookup table better handling for error state
+
+2.0.53: 2024-06-07
+- Improvement: Add image icon/logo option to taxonomies
+- Improvement: Minor improvements for dynamic data image type
+- Improvement: Shop extra swatches - correct stock calculation for attributes with special characters in the name field
+
+2.0.52: 2024-06-06
+- Improvement: Better compatibility with Gravity Forms an Content Blocks module
+- Improvement: Filter block - add tooltip option for brands type
+- Improvement: Filter block - don't show tooltip option if swatch option is disabled
+- Improvement: Mega menu - don't output the heading class when it is not needed
+- Improvement: Shop extra swatches - faster and more accurate calculation of swatches stock status
+- Fix: AJAX Filtering breaks custom created pages with WooCommerce shortcodes
+- Fix: Active filters module doesn't show brand terms when filtering
+- Fix: Multiple sidebars conditions wonky with CPT archives/singulars
+
+2.0.51: 2024-05-30
+- Improvement: Ajax shop filters - don't scroll from top to bottom
+- Improvement: Correctly load JS translations for the Blocksy Companion
+- Improvement: Shop Extra Filters - Lookup table regeneration sometimes is stuck or is finished with error
+- Improvement: Shop Extra Filters - lookup table regeneration sometimes triggered twice
+- Improvement: Small layout issue with checkout page and quantity data
+- Improvement: Variation Swatches - add option to generate variation url in address bar
+- Fix: WooCommerce coupon code not applying correctly in some certain scenarios
+
+2.0.50: 2024-05-24
+- Improvement: Ensure required theme version is correctly verified within WP CLI
+- Improvement: Login to WP dashboard through cPanel WP Toolkit doesn't work
+- Improvement: Make sure shop filters block works properly when placed in content blocks
+- Improvement: Shop Extra Filters - Avoid long recursion on category archives for rendering filters
+- Improvement: Support for product brands in WooCommerce coupon exclusions
+
+2.0.49: 2024-05-23
+- Improvement: Better integration with WooCommerce Product Bundles plugin and Variation Swatches module
+- Improvement: Fix brands import/export PHP warning
+- Improvement: Introduce option for delaying the custom close trigger for popups
+- Improvement: Make sure CloudFlare Turnstile from Contact Form 7 is initialized inside popups with Ajax reveal enabled
+- Improvement: Proper check of Elementor Pro inside content blocks
+- Improvement: Shop extra filters - create index table for faster taxonomies count retrieval
+- Improvement: Shop extra filters - optimize generation of hierarchical taxonomies tree
+
+2.0.48: 2024-05-16
+- Improvement: Conditions module - enable conditions for product attribute archives
+- Improvement: Content blocks conditions better match for card conditions
+- Improvement: Filtering by attributes using outdated slugs should not trigger any warnings
+- Improvement: Shop Extra product filters correctly include child categories in tax query
+- Improvement: Shop filters - add option to display product brands hierarchically
+- Improvement: Smarter loading of the shop extra CSS files on the frontend
+
+2.0.47: 2024-05-10
+- Improvement: Conditions module - better check for "Product Brands" presence in conditions
+
+2.0.46: 2024-05-09
+- Improvement: Account element - make sure custom links are translatable with WPML String Translation
+- Improvement: Add support for custom fields in product post type (archive cards and single product page)
+- Improvement: Conditions manager - add condition to display a hook inside an archive item with a specific taxonomy
+- Improvement: Conditions manager - add support for "product brands" archive
+- Improvement: Don't display shop filters when archive is set to show only categories
+- Improvement: Ensure filters work correctly on the product categories archive pages
+- Improvement: Floating bar - automatically truncate extra long product titles
+- Improvement: Product archive SKU layer check global product presence
+- Improvement: Product brands are not imported/exported correctly when using hierarchy
+- Improvement: Shop filters block - add support for custom taxonomies
+- Improvement: Shortcuts bar - add item that triggers the Filters Canvas module
+- Improvement: Video thumbnails - add possibility to insert the link to a hosted video
+
+2.0.45: 2024-05-03
+- Improvement: Correctly compute Mailchimp region from the API key
+
+2.0.44: 2024-05-03
+- Improvement: Correctly fallback to defaults for untranslated strings
+
+2.0.43: 2024-05-02
+- Improvement: Correctly translate all strings from Pro version
+- Improvement: Make sure filters are not rendered in single product page
+- Improvement: Shop Extra Filters ensure tax query is set after Woo alters the main query
+- Improvement: User role conditions do not show up in the Content Blocks table
+- Fix: Shop Extra Filters never attempt to alter queries on the admin area
+
+2.0.42: 2024-04-25
+- Improvement: Safer output the custom icon in language switcher element
+- Improvement: Variation Swatches better integration with Elementor single product template builder
+- Fix: Dynamic data block image type issue with ACF
+
+2.0.41: 2024-04-19
+- Improvement: Better handle drag & drop items in product split columns
+- Improvement: Price filter does not respect currency symbol alignment
+- Improvement: Simpler access for the cache manager object in extensions
+- Fix: Product filter for Brands does not work with multiple selections
+- Fix: Single product gallery type 3 - lightbox does not open the correct image
+- Fix: Single product gallery types 3 and 4 - lightbox trigger icon is not visible if zoom effect is disabled
+- Fix: Single product gallery types 4 - zoom effect does not work
+
+2.0.40: 2024-04-18
+- New: Filter by price block
+- Improvement: Better handle the start time/date range conditions
+- Improvement: Better integration with Greenshift Tab Block and Size Guide module
+- Improvement: Better integration with WP Hide plugin and Local Google Fonts extension
+- Improvement: Better integration with Woocommerce Custom Product Addons and Quick View module
+- Improvement: Content Block conditions not shown in dashboard if advanced mode is turned on
+- Improvement: Video player - add option to make video `cover` or `contain` when using the simplified player
+- Fix: Content Blocks - editor layout is boxed unless "container structure" is set to custom
+
+2.0.39: 2024-04-11
+- Improvement: Better handling for product gallery navigation (thumbnails and dots)
+- Improvement: Dynamic Data block - better check for brands taxonomy presence
+- Improvement: Dynamic data block preview issue in WordPress 6.5 when placed inside patterns
+- Improvement: Related products module (slider type) - add color options to next/prev buttons
+- Improvement: Search module - add support for searching by taxonomy name
+- Improvement: Single product gallery - pause video when lightbox is opened
+- Improvement: Wishlist better integration with Product Addons plugin
+- Improvement: WooCommerce Advanced Reviews - better calculation of rating count
+- Fix: Single product gallery videos fail to play on mobile
+- Fix: Single product page becomes un-scrollable on mobile if video is played in the gallery
+
+2.0.38: 2024-04-04
+- New: Dynamic data block - add support for product brands
+- Improvement: Add filter to exclude certain category from the posts filter
+- Improvement: Add option to show tooltip in filter block
+- Improvement: Dynamic data block preview issue in editor
+- Improvement: General improvements for variation swatches in single product page
+- Improvement: Make sure mega menu content block output is not rendered inside mobile menu when not needed
+- Improvement: Variation swatches - add custom tooltip option for button variation type
+
+2.0.37: 2024-03-29
+- Improvement: Correctly generate translation files
+
+2.0.36: 2024-03-29
+- Improvement: Correctly migrate swatch type from previous implementation
+
+2.0.35: 2024-03-28
+- Improvement: General fixes and improvements
+
+2.0.34: 2024-03-28
+- New: Variations Swatches - add option to change tooltip text
+- New: Variations Swatches - add option to insert image in tooltip
+- New: Variations Swatches - add option to limit attributes in archive cards
+- New: Variations Swatches - add options to set dual colors
+- New: Variations Swatches - option to change attribute type (including custom ones) and it's settings from single product page
+- Improvement: Better integration between content blocks and WPML
+- Improvement: Custom "thank you page" apply the correct preview template
+- Improvement: Dynamic Data block - remove auto paragraph when wrapper tag is set to `p`
+- Improvement: Post Types Extra - persist taxonomies accent color CSS in a separate file
+- Fix: Issue with uploading an image for product brand after the brand was created/edited
+- Fix: JS Syntax error for standalone variable products using special characters with variation swatches
+
+2.0.33: 2024-03-21
+- Improvement: Better compatibility with Woo Product Addons plugin and wishlist module
+- Improvement: Content blocks - better integration with Gravity Forms Conversational
+- Improvement: WPML and custom tabs translation issue
+- Fix: Issue with uploading an image for product brand after the brand was created/edited
+
+2.0.32: 2024-03-15
+- Improvement: Add image size and ratio to the cart, checkout and wishlist pages
+- Improvement: Checkout page quantity input improvement
+- Fix: Creating Content Blocks fails to ask the type
+
+2.0.31: 2024-03-14
+- Improvement: Compare View does not show all attributes
+- Improvement: Post Types Extra - post filters type 2 color improvements
+- Improvement: Product Taxonomy ID doesn't show the selected taxonomy in conditions module
+- Improvement: Product with default variations does not show the entire variation library if swatches are enabled
+
+2.0.30: 2024-03-08
+- Improvement: General fixes and improvements
+
+2.0.29: 2024-03-07
+- Improvement: Correctly verify plan validity in the license checker
+- Improvement: Ensure all dashboard AJAX actions are protected with nonces
+- Improvement: Free shipping progress bar - decimal number support in "Goal Amount" option
+- Improvement: Sale countdown proper day hours calculation
+- Improvement: Shop filters with multi layered, filled categories shows as expandable, but not showing any children on the front end
+- Fix: Advanced Menu + Content Blocks made with Elementor break automatic menu collapsing
+- Fix: Wrong counter for shop filters for categories with children items
+
+2.0.28: 2024-02-29
+- Fix: More robust check for WooCommerce checkout component from theme
+
+2.0.27: 2024-02-29
+- Improvement: Better integration with Greenshift tabs block and Advanced Menu extension
+- Improvement: Better integration with Variation Swatches extension + WPC Product Bundles for WooCommerce plugin
+- Improvement: Don't output taxonomy options for product attributes
+- Improvement: Make sure missing brands are created on products import
+- Improvement: Post filters override global query only before cards output
+
+2.0.26: 2024-02-22
+- Improvement: Allow attribute terms ordering
+- Improvement: Correctly implement attributes count when lookup table is disabled
+- Improvement: Dont attempt to make SQL query for counts with empty terms
+- Improvement: Ensure the Content Blocks are outputting the correct image HTML
+- Improvement: Make sure the taxonomy customization options are properly displayed for all custom taxonomies
+- Improvement: Option for language header element to show only the active languages
+- Improvement: Post filter buttons require double tap on first load on Chrome/Android
+- Fix: "Extensions" remains in infinite loading immediately after hiding the white label extension
+- Fix: PHP warnings in combination with dynamic data block, ACF and CPTs inside Content Block templates
+- Fix: White label extension does not appear after unhiding it unless another extension is clicked
+
+2.0.25: 2024-02-15
+- Improvement: "Close popup on scroll back" does not work if scroll direction is UP
+- Fix: Correctly override loop add to cart button when default variation is detected
+- Fix: Wrong attribute filters shown on sub-category page
+
+2.0.24: 2024-02-08
+- New: Advanced Reviews - show uploaded image to reviews in backend for review approval
+- Improvement: Dynamic data block - correctly extract the main shop page description/excerpt
+- Improvement: Introduce a safe sprintf function to avoid errors on translations
+- Improvement: Let users disable the "filters" button in canvas mode, if the filter area is always opened
+- Improvement: Reduce amount of database queries made for retrieving filters counters
+- Fix: Shortcuts bar - cart item requires two taps to activate on first load
+
+2.0.23: 2024-02-01
+- New: WooCommerce gallery auto play option
+- Improvement: Account modal - better integration with Simple Cloudflare Turnstile plugin
+- Improvement: Add possibility to show/hide taxonomy children in header Search Box element
+- Improvement: Content Blocks - better integration with MaxiBlocks plugin
+- Fix: Brand filter - checkboxes are not visible in backend
+- Fix: Prices not displayed in archive for variable products under specific set of conditions
+
+2.0.22: 2024-01-25
+- Improvement: Advanced reviews upvote/downvote buttons accessibility improvements
+- Improvement: Correctly normalize single product layers in the split layout
+- Improvement: Filter checkboxes accessibility improvement
+- Improvement: Filters disappear on sub-category pages if "show hierarchy" is ticked
+- Improvement: Filters show non existing attributes, if on a sub-category page
+
+2.0.21: 2024-01-20
+- Improvement: General fixes and improvements
+
+2.0.20: 2024-01-19
+- Improvement: Cache Shop Extra filter counts to improve performance
+- Improvement: Improve copying post type options with post filters across multiple post types + taxonomies
+- Fix: Mega menu position issue when set to full width or content width
+
+2.0.19: 2024-01-18
+- Improvement: Better and safer check for current user capabilities when retrieving options from db
+- Improvement: Filters don't apply if attributes and categories have non latin slugs
+- Improvement: Improve filters counter logic and use attributes lookup table for speed if available
+- Improvement: Off canvas Ajax filters loads entire filter catalogue on category pages
+- Fix: Featured image with video thumbnails - Vimeo videos are incorrectly triggered if there are multiple players on the same page
+- Fix: Filters hierarchy issue in preview mode when "Expandable" option is off
+
+2.0.18: 2024-01-12
+- Improvement: Shop Extra proper filters behaviour on product category pages
+- Fix: Shop Extra ensure filtering by brand and category works as expected
+
+2.0.17: 2024-01-11
+- New: WooCommerce filters - add search through items functionality
+- New: WooCommerce filters - collapsable container functionality
+- New: WooCommerce filters - scrollable lists functionality
+- Improvement: Languages header element drop down icon color not applying correctly
+- Improvement: Respect locale setting when picking the word counting strategy in read more extension
+- Improvement: Smarter output of "additional actions" color settings in archive cards
+- Improvement: White label extension - option to hide documentation links from dashboard home page
+
+2.0.16: 2024-01-05
+- Improvement: Display Conditions (Range Date/Time) - don't allow setting expiration time earlier than starting time
+- Improvement: Make sure WooCommerce swatches don't affect other select options
+
+2.0.15: 2024-01-04
+- New: Language switcher - add custom icon option for dropdown type
+- Improvement: Content Block embedded via shortcode does not respect disabled, trashed, draft status
+- Improvement: Content blocks code editor issue with iframed Gutenberg editor
+- Improvement: Hide and don't apply "sticky row" option if compare is set to "Page"
+- Improvement: Shop filters do not show random attributes if "hide out of stock products" option is enabled
+- Improvement: Wishlist - better integration with PPOM plugin
+- Improvement: Wishlist cart actions improvement
+- Fix: Advanced reviews issue if user is logged out and product has 0 reviews
+
+2.0.14: 2023-12-26
+- Improvement: Free Shipping bar custom amount control improvement
+- Improvement: Newsletter subscribe/Brevo provider - make sure subscribers appear in the correct list
+- Improvement: WooCommerce offcanvas cart respect thumbnail ratio option
+
+2.0.13: 2023-12-22
+- Improvement: Post Types Extra filters correctly scope post counts by language
+
+2.0.12: 2023-12-21
+- New: Free Shipping Bar - calculate based on number of products added to cart
+- Improvement: Advanced menu drop down is offset in a weird position if custom width drop down is used
+- Improvement: Categories expandable functionality small issue when AJAX filtering is enabled
+- Improvement: Custom thank you pages do not work with "classic cart/checkout" blocks from WooCommerce
+- Improvement: Free Shipping Bar + Woocommerce Custom Product Addons better compatibility
+- Improvement: Make sure the category shop filters is respecting order
+- Improvement: Optimise Shop Extra swatches in product archive card
+- Improvement: Product YouTube/Vimeo videos migration improvements
+- Improvement: Single product variation label - don't output attribute name if attribute type is set to select
+- Improvement: WooCommerce apply filtering by SKU only on search pages
+- Fix: Advanced menu icon colors not applying properly if nested in a specific way
+- Fix: Compare Bar renders in legacy widgets
+- Fix: Search with live results issue when SKU criteria is enabled
+- Fix: Variation Swatches and WPML - fix issue when table already exists
+
+2.0.11: 2023-12-15
+- Improvement: Avoid crashes during the search when applying the nothing found content block
+
+2.0.10: 2023-12-14
+- New: Option to change trending posts module title icon
+- New: White label - option to hide the documentation and video tutorial links from extensions
+- Improvement: Consolidate Nothing Found content blocks logic
+- Fix: Compare header counter doesn't update properly
+- Fix: Product archives "quick view" button cannot be turned off
+
+2.0.9: 2023-12-12
+- New: WooCommerce active filters block
+- Improvement: Ability to import/export "Brands" items
+- Improvement: Better case insensitive match for variation swatches based on query string params
+- Improvement: Dont attempt to do content blocks pre output on admin side
+- Improvement: Post filter counter for "all" only counts the current archive page instead of the actual all articles
+- Improvement: Responsive Items Direction Settings for “Contacts”
+- Improvement: WooCommerce single product gallery type 3 improvements
+
+2.0.8: 2023-12-08
+- Improvement: Better check for attribute existence in single product variations
+- Fix: Content Block device visibility options not respected if hooked via hooks
+
+2.0.7: 2023-12-07
+- Improvement: Button type swatches have no spacing
+- Improvement: Content Block device visibility options not respected if hooked via customizer layers
+- Improvement: Content blocks integrate with Stackable Expand block
+- Improvement: Don't output color or image swatch container if no value is set in term options
+- Improvement: Pop-up re-trigger after X days does not go to 0 with -/+ buttons
+- Improvement: Quick View better check for `$actions_layer`
+- Fix: Single product share box colors do not work
+- Fix: Wishlist share box color options are not working
+
+2.0.6: 2023-12-06
+- Fix: Customizer mode issue if child theme is active
+
+2.0.5: 2023-12-06
+- New: Option to change single product "Additional Actions" buttons label in customizer
+- New: Option to make AJAX product archive page scroll to top when modified
+- Improvement: Content blocks better integration with Stackable blocks
+- Improvement: Filters automatically triggers the filter if the expand icon is clicked
+- Improvement: Improve swatches logic with out of stock variations
+- Fix: Custom "Thank You" pages per product option doesn't work
+- Fix: Customizer live view does not update "Color Switch" label font settings
+- Fix: WooCommerce "Advanced Reviews" error on some specific setups
+
+2.0.4: 2023-11-30
+- Improvement: "Display variations inline” option sets label position to the bottom if more variations are present
+- Improvement: Product card correctly register quick view product action
+- Fix: Maintenance Mode module breaks when setting a date
+- Fix: Off canvas filter canvas breaks if type 2 and mobile only is selected
+- Fix: Post Types Extra - filters and sub-categories issue
+
+2.0.3: 2023-11-29
+- Improvement: Add `is_valid` property to SwatchesRender class
+- Improvement: Better check for wishlist module presence
+- Improvement: Correctly enable Post Types Extra sub-features during migration
+- Improvement: Updated integration with Sendinblue/Brevo
+
+2.0.2: 2023-11-27
+- Improvement: Better check for media in advanced reviews extension
+- Improvement: Correctly handle non-existent fonts in Local Google Fonts UI
+- Fix: Ensure popups dont break when invalid href is provided to buttons
+- Fix: Shortcuts bar - cart button not working
+
+2.0.1: 2023-11-25
+- Improvement: General fixes and improvements related to update
+- Improvement: Greenshift styles integration with Content Blocks
+- Fix: Avoid issue with custom fonts on update
+
+2.0.0: 2023-11-24
+- New: Add option to preload specific Custom Font or Local Google Font
+- New: Archive products new cards type (type 3)
+- New: Better flow for video thumbnails in archive and single pages
+- New: Color Switch (dark mode) extension
+- New: Compare bottom bar for compare products extension
+- New: Custom thank you pages extension
+- New: Display conditions module - AND & OR relations functionality
+- New: Display conditions module - range date/time option
+- New: Display conditions module - recurring days option
+- New: Display conditions module - request cookie option
+- New: Display conditions module - request referer option
+- New: Display conditions module - request url option
+- New: Dynamic data block
+- New: Filter Canvas - option to display filter inside an inline canvas
+- New: Free shipping progress bar module that could be displayed in single product page, cart page, minicart and checkout
+- New: Functionality to duplicate a content block
+- New: Gutenberg block for selecting a Content Block from the list
+- New: Integrate new Mailerlite API in newsletter subscribe extension
+- New: Local Google Fonts - possibility to pick and load certain font variations
+- New: More advanced options for affiliate products
+- New: Off-canvas cart empty state hook
+- New: Option to copy CPT options in Customizer and apply them to a different CPT
+- New: Option to enable navigation arrows (+ keyboard navigation) in Quick View modal
+- New: Option to load mega menu content with AJAX
+- New: Option to show posts count in PTE filters items
+- New: Popups - JS API for controlling and observing popups
+- New: Popups - option to close the popup on custom button click or form submit
+- New: Popups - option to load content with AJAX
+- New: Popups - option to trigger popup when selector matches
+- New: Popups - rework re-launching options
+- New: Possibility to create a custom "no results page" in content blocks templates
+- New: Product "New" & "Featured" Badges
+- New: Product Brand - show brand and it's description in single product tabs
+- New: Product Brands - WooCommerce module to display brands in archive and single product pages
+- New: Product image option on the checkout page order review table
+- New: Product sale countdown functionality
+- New: Quantity option on the checkout page
+- New: Related posts - option to display items in carousel
+- New: Search box header item - option to scope results by certain taxonomy
+- New: Shop filter module - allow filtering without page refresh (AJAX)
+- New: Support for Pods plugin in Post Types Extra extension
+- New: Video thumbnails - option to display videos in thumbnail/featured image for all post types
+- New: Wishlist - add possibility to save a product with preselected variation
+- New: WooCommerce accordion tabs with possibility to place them in product entry summary
+- New: WooCommerce advanced product reviews module
+- New: WooCommerce compare products module
+- New: WooCommerce custom tabs module
+- New: WooCommerce filter widget - allow filter by category, attribute, brands widget (also supports AJAX)
+- New: WooCommerce related products - option to display items in carousel
+- New: WooCommerce size guide module
+- New: WooCommerce variation swatches module (color, image, button)
+- Improvement: Add loading indicator to wishlist, quick view, compare, size guide buttons
+- Improvement: Bypass caching for Wishlist & Darkmode automatically
+- Improvement: Bypass caching for Wishlist, Compare & Dark Mode when caching plugin is detected
+- Improvement: Contacts module icon link protection for spam bots
+- Improvement: Custom Fonts and Local Google Fonts - switch to HTTPS when needed
+- Improvement: Custom Fonts and Local Google Fonts - switch to HTTPS when needed
+- Improvement: Don't load/show offcanvas cart or quantity inputs if WooCommerce Extra extension is deactivated
+- Improvement: Floating cart - when clicking select options the anchor starts behind sticky header
+- Improvement: Load quick view modal CSS only when quick view is opened
+- Improvement: Make "Contacts" element icons clickable if they do not contain title/content
+- Improvement: Move divider & search box css from theme to companion plugin
+- Improvement: Performance - Filtering content blocks by type in PHP, not SQL, to avoid table JOINs
+- Improvement: Performance - Optimize Content Block Popups logic
+- Improvement: Performance - Smarter load extensions CSS files (only when extensions is activated and present on a page)
+- Improvement: Performance - Smarter load of "Newsletter Subscribe" CSS file
+- Improvement: Popups - make editor to inherit the popup background color
+- Improvement: Popups - overall code improvements
+- Improvement: Prefix CSS variables in order to not conflict with other plugins
+- Improvement: Refactor container and it's behavior for shortcuts bar, floating cart, compare bar
+- Improvement: Smarter loading styles from third party builder for content blocks
+- Fix: Footer contact widget label for “E-mail” string translation with WPML is not working
+- Fix: Locally hosted videos cannot be played from the product archives and redirects user to the single page
+- Fix: Quick View doesn't scroll on mobile landscape if it has a gallery at the top
+
+2.0.0-beta26: 2023-10-25
+- Improvement: General fixes and improvements
+
+2.0.0-beta25: 2023-10-13
+- Improvement: General fixes and improvements
+
+2.0.0-beta24: 2023-10-06
+- Improvement: General fixes and improvements
+
+2.0.0-beta23: 2023-09-29
+- Improvement: General fixes and improvements
+
+2.0.0-beta22: 2023-09-22
+- Improvement: General fixes and improvements
+
+2.0.0-beta21: 2023-09-15
+- Improvement: General fixes and improvements
+
+2.0.0-beta20: 2023-09-08
+- Improvement: General fixes and improvements
+
+2.0.0-beta19: 2023-09-01
+- Improvement: General fixes and improvements
+
+2.0.0-beta18: 2023-08-28
+- Improvement: General fixes and improvements
+
+2.0.0-beta17: 2023-08-25
+- Improvement: General fixes and improvements
+
+2.0.0-beta16: 2023-08-18
+- Improvement: General fixes and improvements
+
+2.0.0-beta15: 2023-08-11
+- Improvement: General fixes and improvements
+
+2.0.0-beta14: 2023-08-04
+- Improvement: General fixes and improvements
+
+2.0.0-beta13: 2023-07-28
+- Improvement: General fixes and improvements
+
+2.0.0-beta12: 2023-07-21
+- Improvement: General fixes and improvements
+
+2.0.0-beta11: 2023-07-14
+- Improvement: General fixes and improvements
+
+2.0.0-beta10: 2023-07-07
+- Improvement: General fixes and improvements
+
+2.0.0-beta9: 2023-06-30
+- Improvement: General fixes and improvements
+
+2.0.0-beta8: 2023-06-23
+- Improvement: General fixes and improvements
+
+2.0.0-beta7: 2023-06-16
+- Improvement: General fixes and improvements
+
+2.0.0-beta6: 2023-05-26
+- Improvement: General fixes and improvements
+
+2.0.0-beta5: 2023-05-26
+- Improvement: General fixes and improvements
+
+2.0.0-beta4: 2023-05-17
+- Improvement: General fixes and improvements
+
+2.0.0-beta3: 2023-05-12
+- New: Archive products new cards type (type 3)
+- New: Better flow for video thumbnails in archive and single pages
+- New: Color Switch (dark mode) extension
+- New: Display conditions module - AND & OR relations functionality
+- New: Display conditions module - range date/time option
+- New: Display conditions module - recurring days option
+- New: Display conditions module - request cookie option
+- New: Display conditions module - request referer option
+- New: Display conditions module - request url option
+- New: Filter Canvas - option to display filter inside an inline canvas
+- New: Free shipping progress bar module that could be displayed in single product page, cart page, minicar and checkout
+- New: Gutenberg block for selecting a Content Block from the list
+- New: Integrate new Mailerlite API in newsletter subscribe extension
+- New: More advanced options for affiliate products
+- New: Option to copy CPT options in Customizer and apply them to a different CPT
+- New: Option to enable navigation arrows (+ keyboard navigation) in Quick View modal
+- New: Option to load mega menu content with AJAX
+- New: Option to show posts count in PTE filters items
+- New: Popups - JS API for controlling and observing popups
+- New: Popups - option to close the popup on custom button click or form submit
+- New: Popups - option to load content with AJAX
+- New: Popups - rework re-launching options
+- New: Possibility to create a custom "no results page" in content blocks templates
+- New: Product "New" & "Featured" Badges
+- New: Product Brand - show brand and it's description in single product tabs
+- New: Product Brands - WooCommerce module to display brands in archive and single product pages
+- New: Product image option on the checkout page order review table
+- New: Quantity option on the checkout page
+- New: Search box header item - option to scope results by certain taxonomy
+- New: Shop filter module - allow filtering without page refresh (AJAX)
+- New: Support for Pods plugin in Post Types Extra extension
+- New: Video thumbnails - option to display videos in thumbnail/featured image for all post types
+- New: Wishlist - add possibility to save a product with preselected variation
+- New: WooCommerce accordion tabs with possibility to place them in product entry summary
+- New: WooCommerce filter widget - allow filter by category, attribute, brands widget (also supports AJAX)
+- New: WooCommerce variation swatches module (color, image, button)
+- Improvement: Don't load/show offcanvas cart or quantity inputs if WooCommerce Extra extension is deactivated
+- Improvement: Load quick view modal CSS only when quick view is opened
+- Improvement: Make "Contacts" element icons clickable if they do not contain title/content
+- Improvement: Move divider & search box css from theme to companion plugin
+- Improvement: Popups - overal code improvements
+- Fix: Locally hosted videos cannot be played from the product archives and redirects user to the single page
+- Fix: Quick View doesn't scroll on mobile landscape if it has a gallery at the top
+
+1.9.11: 2023-11-09
+- Improvement: Better compatibility with WordPress 6.4
+
+1.9.10: 2023-11-02
+- Improvement: General fixes and improvements
+
+1.9.9: 2023-11-02
+- Improvement: Introduce filter for dynamically controlling wish list
+
+1.9.8: 2023-10-12
+- Improvement: Custom icons in post meta are adding a ghost space
+
+1.9.7: 2023-09-28
+- Improvement: Correctly output class for the archive templates
+- Improvement: Local Google Fonts dont try to fetch non existent fonts
+
+1.9.6: 2023-09-21
+- Improvement: General fixes and improvements
+
+1.9.5: 2023-09-14
+- Improvement: General fixes and improvements
+
+1.9.4: 2023-09-07
+- Improvement: Better autoloader mechanism for premium classes
+
+1.9.3: 2023-08-31
+- Improvement: Get rid of warnings with PHP 8.2 in beta delivery mechanism
+
+1.9.2: 2023-08-24
+- Improvement: Correctly load Custom Fonts and Local Google Fonts in the block editor
+- Improvement: Allow displaying Post Content block in the Content Blocks editor
+
+1.9.1: 2023-08-17
+- Improvement: Better structure variables backend output for content blocks
+
+1.9.0: 2023-08-10
+- Improvement: Correctly load Custom Fonts and Local Google Fonts in the block editor
+
+1.8.99: 2023-08-09
+- Improvement: Don't output structure options to popup content block
+
+1.8.98: 2023-07-27
+- Improvement: Post Types Extra filtering better handling of taxonomy archives
+- Improvement: Post Types Extra AJAX filtering sync page title
+
+1.8.97: 2023-07-19
+- Improvement: Match ACF custom fields by post_category type
+
+1.8.96: 2023-07-13
+- Improvement: Better detect mega menu heading items
+- Improvement: Pop-up "scroll lock" feature makes mobile page jump to the top if turned on
+
+1.8.95: 2023-07-05
+- Improvement: Update Freemius SDK to latest version
+- Fix: Wishlist table minor styling issues
+
+1.8.94: 2023-06-29
+- Improvement: Post types extra AJAX filtering ensure page title is up to date
+- Fix: Advanced menu heading font controls issue
+
+1.8.93: 2023-06-22
+- Improvement: Show offcanvas filter trigger button only on native Woo archives
+
+1.8.92: 2023-06-14
+- Improvement: General fixes and improvements
+
+1.8.91: 2023-06-12
+- Improvement: General fixes and improvements
+
+1.8.90: 2023-06-03
+- Improvement: White label sanitize html entities in theme name
+
+1.8.89: 2023-06-01
+- Improvement: Elementor assets aren't enqueued properly in Quick View modal
+- Improvement: Add class name to "Read Time" meta data element
+
+1.8.88: 2023-05-25
+- Improvement: General fixes and improvements
+
+1.8.87: 2023-05-18
+- Improvement: General fixes and improvements
+
+1.8.86: 2023-05-11
+- Improvement: Better resiliency for non-string custom fields
+- Improvement: Mega menu icons should be included in responsive menu calculations
+- Fix: Advanced menu icon picker overflows issue in Safari
+
+1.8.85: 2023-05-04
+- Improvement: Proper dynamic chunks logic for filtering
+- Improvement: Proper default for custom fields in attributes
+- Improvement: Shortcuts bar container height when items are stacked on mobile
+
+1.8.84: 2023-04-20
+- Improvement: General fixes and improvements
+
+1.8.83: 2023-04-13
+- Improvement: Better check for shortcuts bar presence
+- Improvement: Make sure the custom code snippets are displayed correctly after body open tag
+
+1.8.82: 2023-04-06
+- Improvement: Allow translating contact element when placed in the footer
+- Improvement: Better insertion logic for the sidebar creation form
+- Improvement: Make popups maximum height act correctly based on viewport size when it changes dynamically
+- Improvement: Better display of "no products in wishlist" message in wishlist
+- Fix: Menu content blocks still active even if they're disabled/drafts/trash
+- Fix: Floating cart does not respect single product AJAX add to cart settings
+
+1.8.81: 2023-03-30
+- Improvement: Shortcuts bar - option to change items background  initial and hover color
+- Improvement: Local Google Fonts - allow syncing even when no fonts are selected
+- Improvement: Greenshift correctly display custom fonts label
+- Improvement: Better sync of spacing option inside content blocks
+- Fix: Content Blocks - code editor button position
+
+1.8.80: 2023-03-27
+- Improvement: Compatibility with WordPress 6.2
+- Improvement: Shortcuts bar divider RTL issue
+- Improvement: Integrate Custom Fonts extension with Greenshift plugin
+- Improvement: Better login of WooCommerce Attribute Filter inside offcanvas filters
+- Fix: QuickView displays blank on products with no image and no placeholder
+
+1.8.79: 2023-03-16
+- Improvement: Don't render content block hooks in Elementor preview mode
+- Improvement: Product cards swap effect with transparent background images
+
+1.8.78: 2023-03-09
+- Improvement: Properly compute current prefix for PTE filtering
+- Fix: Floating Cart does not work on external products page
+
+1.8.77: 2023-03-02
+- Improvement: General fixes and improvements
+
+1.8.76: 2023-02-23
+- Improvement: Floating Cart ignore global product when its different than the current one
+- Fix: WooCommerce gallery arrows position
+- Fix: Create hook button is not clickable in the Quick View modal
+- Fix: Mega menu full width background doesn't get the default color correctly
+
+1.8.75: 2023-02-15
+- Improvement: General fixes and improvements
+
+1.8.74: 2023-02-15
+- Improvement: Better handle popup content block closing logic
+- Improvement: Smarter request termination for quantity input in offcanvas
+
+1.8.73: 2023-02-09
+- Improvement: General fixes and improvements
+
+1.8.72: 2023-02-02
+- Fix: Floating Cart is adding redundant space if product is out of stock
+- Fix: Menu badge background color not working correctly on mobile devices
+
+1.8.71: 2023-01-26
+- Improvement: General fixes and improvements
+
+1.8.70: 2023-01-26
+- Improvement: Mega menu add option to display the content block on mobile menus
+
+1.8.69: 2023-01-20
+- Improvement: General fixes and improvements
+
+1.8.68: 2023-01-20
+- Improvement: Search box header element product price option
+
+1.8.67: 2023-01-19
+- Fix: Content block 404 templates not outputted correctly
+
+1.8.66: 2023-01-11
+- Improvement: Dynamic content preview option inside simple hooks
+- Improvement: Better compatibility with Advanced Product Fields plugin and Blocksy wishlist
+- Improvement: Allow changing conditions relation for template content blocks
+- Improvement: More universal taxonomy matching for ACF fields
+- Improvement: Don't show Quick View modal for password protected products
+- Fix: Content blocks expiration date/time option doesn't work in some cases
+
+1.8.65: 2022-12-29
+- Improvement: Search box minor layout improvements
+
+1.8.64: 2022-12-28
+- Improvement: Add scroll lock option for popups
+
+1.8.63: 2022-12-22
+- Fix: Search box header element placed in the middle goes out of bounds if set to 100% width
+- Fix: Quick View breaks Woo navigation if product catalogue is set to "Categories"
+
+1.8.62: 2022-12-15
+- Improvement: Correctly display variable products gallery in quick view
+- Fix: Sidebar conditions issue - post with taxonomy ID applies incorrectly in some certain situations
+- Fix: Cyrillic characters do not increase PTE reading time
+
+1.8.61: 2022-12-09
+- Improvement: Ignore repeater ACF custom fields in post types extra
+- Fix: Correctly display floating cart
+
+1.8.60: 2022-12-08
+- Improvement: Better focus management for auto-opened off-canvas cart
+- Improvement: Multisite activation screen display issue
+- Improvement: Integrate local Google fonts with Greenshift plugin
+- Fix: Shortcuts bar custom element label sync issue
+- Fix: Estimated read time more robust logic for excerpts
+
+1.8.59: 2022-11-24
+- Fix: Mega Menu (full width) background color issue
+
+1.8.58: 2022-11-17
+- Improvement: Update Freemius SDK to latest version
+
+1.8.57: 2022-11-10
+- Improvement: Correctly refresh fragments of content in offcanvas cart
+- Improvement: Update content blocks Zion Builder integration
+
+1.8.56: 2022-11-04
+- Improvement: General fixes and improvements
+
+1.8.55: 2022-11-03
+- Improvement: Dropdown icon for the language switcher
+- Improvement: Better integration between content blocks single templates and Elementor
+- Improvement: Shortcode support for custom fields fallbacks
+
+1.8.54: 2022-10-27
+- Improvement: More resilient cloned footer elements logic
+- Fix: Single product vertical thumbnail arrows initialization issue
+
+1.8.53: 2022-10-20
+- Improvement: General fixes and improvements
+
+1.8.52: 2022-10-13
+- Improvement: Add correct user capabilities for content blocks post type
+- Fix: Correctly load sidebars styles for single post/page custom templates
+
+1.8.51: 2022-10-07
+- Improvement: Smarter selection for "after certain number of blocks" display condition
+- Improvement: Mega menu (full width container) background appearance glitch
+- Improvement: Adobe Fonts extension issue with Beaver Builder
+- Improvement: Load Piotnet Forms styles correctly when used inside content blocks
+- Fix: Reading time module shows wrong time if special characters are placed in text
+- Fix: Secondary phone icon in icon picker is not selectable
+
+1.8.49: 2022-09-22
+- Improvement: Stop videos when popups are closed
+
+1.8.47: 2022-09-15
+- New: Filter for changing the "quick view" icon
+- Improvement: Better pills logic for WooCommerce Gallery Type 4
+- Improvement: Correctly loading of variable fonts in admin screens
+- Improvement: Display wishlist button in single products that don't have price
+- Improvement: Better handle SVG icons inside Blocksy's Gutenberg settings when using white label
+- Fix: Read time module calculation issue with not-latin characters in links
+
+1.8.46: 2022-08-18
+- Improvement: Show add to wishlist button only if product is out of stock
+- Fix: Header HTML element breaks WPML string translations if multiplied
+
+1.8.45: 2022-08-04
+- Improvement: Correctly migrate code block value in content blocks
+- Improvement: Better AJAX loading for wishlist counts
+- Improvement: Counter for wishlist and cart in shortcuts bar
+- Fix: Wishlist counter styles where not outputted correctly
+- Fix: Icon module not rendering the custom uploaded icon
+
+1.8.44: 2022-07-27
+- Improvement: Better handle for customizer options and archive templates
+
+1.8.43: 2022-07-26
+- New: Add custom icon upload module to scroll to top button
+- Improvement: Improve video aspect ratio inside single product gallery
+- Improvement: Content blocks code editor block add proper render when it is used as Gutenberg block
+- Improvement: Migrate template replacement strategy for single templates
+- Improvement: Integrate offcanvas filter with Search & Filter Pro plugin
+- Improvement: Do not output custom options in product taxonomies
+- Fix: Advanced menu heading font option doesn't output some values correctly
+
+1.8.42: 2022-07-14
+- New: Font controls for headings for the advanced menu extension
+- Improvement: Better flow when selecting a custom icon for the account header element
+- Improvement: Custom fonts module better integration with Stackable typography option
+- Improvement: Add "content area" option in single template builder
+- Improvement: Support for shortcode in shortcuts bar label/link option
+
+1.8.41: 2022-07-08
+- Fix: Quick view modal position in combination with floating cart
+
+1.8.40: 2022-07-07
+- Improvement: General fixes and improvements
+
+1.8.38: 2022-07-07
+- Improvement: General fixes and improvements
+
+1.8.37: 2022-06-28
+- New: Condition to match privacy policy page
+- New: Implement icon picker in header and footer items
+- Fix: Shortcuts bar additional spacing when disabled on certain devices or pages
+
+1.8.36: 2022-06-21
+- Improvement: General fixes and improvements
+
+1.8.35: 2022-06-20
+- Improvement: Shortcuts bar minor CSS improvements
+- Improvement: Integration with Yith Name Your Price plugin and quick view module
+- Improvement: Allow textarea option to be resized in Custom Code Snippets extension
+- Fix: Disabling 404 custom template doesn't work
+
+1.8.34: 2022-06-03
+- Improvement: Correctly parse shortcodes in content blocks built with Brizy
+- Improvement: Better options sync for archive templates
+- Improvement: Don't allow creation of content blocks outside the regular flow
+- Improvement: Better check the reading time in Post Types Extra extension
+- Improvement: Better reading progress bar selector
+
+1.8.33: 2022-05-25
+- New: Hook location: WP head start
+- Improvement: Better AJAX loading for WishList module
+- Improvement: Ensure taxonomy filters work with another posts listing on the same page
+
+1.8.32: 2022-05-20
+- Improvement: Sync taxonomy meta options across multiple languages
+- Improvement: Correct output for dynamic CSS for card archive templates
+- Improvement: Integrate Wishlist with Product Calculator
+- Improvement: Better Code Editor implementation in content blocks
+- Fix: Hiding label from top level menu breaks dropdowns
+
+1.8.31: 2022-05-11
+- Improvement: Increase viewable area for code editor (Content Blocks)
+- Fix: Container structure doesn't apply to hook content block
+
+1.8.30: 2022-05-11
+- Improvement: Better logic separation in content blocks
+
+1.8.29: 2022-05-10
+- New: Hooks for off canvas filters
+- Improvement: Wishlist Sharebox does not update network choices on the front end
+- Improvement: Better code edito behaviour for popups
+- Improvement: Behaviour of Custom Post Type ID rule in conditions module
+- Fix: Cart type 2 (off canvas/drawer) doesn't work if placed inside the off canvas menu
+- Fix: WooCommerce quick view module is not scrollable on iPad portrait mode
+
+1.8.27: 2022-04-22
+- Improvement: General fixes and improvements
+
+1.8.26: 2022-04-21
+- New: Single template builder
+- New: Archive template builder
+- Improvement: CodeMirror integration in code editor for custom hooks
+- Improvement: More robust handling for share box settings in wishlist page
+- Improvement: Better handle page builder content inside popups
+- Improvement: Visibility controls for WooCommerce single product gallery arrows
+- Improvement: Better code editor in content blocks "Code editor" mode
+- Fix: Popups not working correctly in all cases with dynamic blocks
+
+1.8.26-beta2: 2022-04-20
+- Improvement: More robust handling for share box settings in wishlist page
+- Improvement: Better handle page builder content inside popups
+- Improvement: Visibility controls for WooCommerce single product gallery arrows
+- Improvement: Better code editor in content blocks "Code editor" mode
+
+1.8.25: 2022-04-08
+- Improvement: General fixes and improvements
+
+1.8.24: 2022-04-07
+- Fix: Correct reference for global post in content blocks
+- Fix: Nextend login crashes site if account modal is enabled and present
+
+1.8.23: 2022-04-07
+- Improvement: Popups content block focus lock improvement
+- Improvement: Override global post during hook render
+- Fix: Previewing draft products with floating cart enabled crashes the preview page
+
+1.8.22: 2022-03-25
+- Improvement: Body offset for bottom floating cart
+
+1.8.21: 2022-03-23
+- New: Content Blocks UI filter option
+- New: Integration with WeGlot translate plugin
+- Improvement: Add target and rel options in for custom shortcut
+- Improvement: Make Local Google Fonts more robust
+- Fix: Floating bar visibility issue
+- Fix: Uploading custom fonts not working sometimes if uploading from extension modal
+
+1.8.20: 2022-03-01
+- Improvement: Post Types Extra (read time option) doesn’t work with non-latin characters
+- Improvement: Make search by SKU to not affect other queries
+
+1.8.19: 2022-02-18
+- Improvement: General fixes and improvements
+
+1.8.18: 2022-02-16
+- Improvement: Support for manually created custom fields
+- Improvement: Shortcuts bar default values
+- Improvement: Popups - add new trigger condition (after X pages)
+- Fix: WooCommerce Extra shows variations (due to sku) in search results
+- Fix: Duplicating header elements and switching to Blocksy Companion Free breaks header builder
+- Fix: Elementor Pro dynamic images do not work with Content Blocks
+
+1.8.17: 2022-01-21
+- Improvement: Display mega menu dropdown only in the top-level menu items
+- Improvement: Mega menu background color output when container is set to full width
+- Improvement: Content blocks better enqueue Elementor CSS
+- Improvement: Increase the number of separate ACF layers through PTE
+- Fix: Shortcuts bar and floating cart overlap
+
+1.8.17-beta13: 2022-01-19
+- Improvement: Display mega menu dropdown only in the top-level menu items
+- Improvement: Mega menu background color output when container is set to full width
+- Improvement: Content blocks better enqueue Elementor CSS
+- Improvement: Increase the number of separate ACF layers through PTE
+- Fix: Shortcuts bar and floating cart overlap
+
+1.8.16: 2021-12-29
+- Improvement: Advanced Menu icon color options
+
+1.8.15: 2021-12-24
+- Improvement: General fixes and improvements
+
+1.8.14: 2021-12-24
+- Improvement: Correctly apply shortcodes in content blocks
+- Improvement: Content blocks minor CSS order issue
+- Fix: Fix popup close button
+
+1.8.13: 2021-12-18
+- Improvement: A11Y Advanced menu disabled links keyboard handling
+
+1.8.12: 2021-12-17
+- Improvement: Shortcuts bar position when overlay modal is active
+
+1.8.11: 2021-12-16
+- Fix: Content blocks with a shortcode block adds two empty `p` tags
+- Fix: Content Blocks in account modal are duplicated
+
+1.8.10: 2021-12-15
+- Improvement: Hide hook locations functionality for non administrator users
+- Improvement: Better handling of typography options with Kadence blocks
+- Improvement: Mega menu dropdown RTL improvements
+- Improvement: White label and translation strings from pro version
+- Fix: Content Blocks/hooks are not rendered in the account modal
+- Fix: Content Blocks contents get erased if activating brizy's editing capabilities
+- Fix: Wishlist element custom label strings are not added to the WPML
+- Fix: Language switcher element does't take the language order from WPML settings in consideration
+- Fix: Post Types Extra taxonomies image & color option are not displayed properly
+
+1.8.10-beta1: 2021-12-10
+- Improvement: Mega menu dropdown RTL improvements
+- Improvement: White label and translation strings from pro version
+- Fix: Content Blocks contents get erased if activating brizy's editing capabilities
+- Fix: Wishlist element custom label strings are not added to the WPML
+- Fix: Language switcher element does't take the language order from WPML settings in consideration
+- Fix: Post Types Extra taxonomies image & color option are not displayed properly
+
+1.8.9.9: 2021-11-26
+- New: WooCommerce video as product image/thumbnail | [Tutorial](https://creativethemes.com/blocksy/docs/woocommerce/video-gallery-for-products/)
+- Improvement: Header Search Box element background option
+- Fix: View Cart button does not work on archive pages if Quick View is set to Card click
+
+1.8.9.8: 2021-11-18
+- Fix: Content Block shortcode is incomplete
+
+1.8.9.7: 2021-11-16
+- Improvement: General fixes and improvements
+
+1.8.9.6: 2021-11-16
+- New: Mobile Menu 2 header item
+- New: Account modal respect WooCommerce register and password settings
+- New: Integration with Nextend Social Login and Register
+- New: Account modal integration with Advanced noCaptcha & invisible Captcha plugin
+- New: Account integration with Login No Captcha reCAPTCHA plugin
+- New: Account modal use WooCommerce lost password & register emails
+- New: Wordfence 2FA integration with login modal
+- Improvement: Allow mobile menu to be placed in all rows in mobile header
+- Improvement: Wishlist functionality with caching plugins
+- Improvement: Allow contacts header/footer element to be duplicated twice
+- Improvement: White Label Gutenberg Icon does not check the file type
+- Fix: Advanced Menu automatically selects latest content block
+
+1.8.9.5: 2021-10-27
+- Improvement: Correctly reference font URLs on sites with path after domain name
+- Improvement: Update plugin text domain from blc to blocksy-companion
+
+1.8.9.4: 2021-10-21
+- Fix: White Label issue
+
+1.8.9.3: 2021-10-20
+- New: Fonts integration with Plus Addons for Gutenberg
+- Improvement: Popups content block CSS improvements
+- Improvement: Better order for dynamic CSS files
+
+1.8.9.3-beta14: 2021-10-19
+- New: Fonts integration with Plus Addons for Gutenberg
+- Improvement: Better order for dynamic CSS files
+
+1.8.9.2: 2021-10-01
+- Improvement: Popup content blocks z-index
+
+1.8.9.1: 2021-09-30
+- New: White label option to change Blocksy page settings icon
+- New: Tooltip for single product wishlist button
+- Improvement: Add aria-label attribute to shortcuts bar SVG icons
+- Improvement: Add CSS selector to post meta custom fields
+- Improvement: Post Types Extra and ACF fields
+- Fix: Popup backdrop background color option
+- Fix: Post Meta elements and custom SVG icons not displayed correctly
+
+1.8.9: 2021-09-21
+- Improvement: Content blocks - don't output background color if container structure is disabled
+- Fix:  Woo category cards not clickable if Quick View is set to Card Click
+
+1.8.8.8: 2021-09-17
+- Improvement: Take header widget area into responsive menu calculation
+
+1.8.8.7: 2021-09-14
+- Improvement: Mega menu and content blocks
+- Improvement: Better handling for custom fonts in JS
+
+1.8.8.6: 2021-09-09
+- Improvement: Icon spacing in header/footer button
+- Improvement: Header and Footer conditions and WPML
+
+1.8.8.5: 2021-09-07
+- Improvement: General fixes and improvements
+
+1.8.8.4: 2021-09-03
+- Improvement: General fixes and improvements
+
+1.8.8.3: 2021-08-31
+- Improvement: General fixes and improvements
+
+1.8.8.2: 2021-08-30
+- Improvement: Floating cart position in combination with sticky header
+- Fix: ACF fields in Related Posts module of custom post type not working correctly
+
+1.8.8.1: 2021-08-23
+- Fix: Transparent header doesn't work properly with multiple headers
+
+1.8.8: 2021-08-20
+- Improvement: Content blocks add revisions history
+- Improvement: Single product lightbox with gallery type 3
+- Improvement: Brizy content blocks not rendered correctly
+- Fix: Exit intent popup triggering multiple times
+- Fix: Local Google Fonts modal dropdown overflow
+
+1.8.8-beta7: 2021-08-17
+- Improvement: Content blocks add revisions history
+- Improvement: Single product lightbox with gallery type 3
+- Improvement: Brizy content blocks not rendered correctly
+- Fix: Exit intent popup triggering multiple times
+- Fix: Local Google Fonts modal dropdown overflow
+
+1.8.7.5: 2021-08-02
+- Improvement: Pop-up content block small CSS improvements
+- Fix: WooCommerce single product add to cart doesn't automatically open the off-canvas
+
+1.8.7.4: 2021-07-30
+- Improvement: General fixes and improvements
+
+1.8.7.3: 2021-07-29
+- New: Posts filter module filtering behavior
+- Improvement: Mega menu with multilingual plugins
+- Improvement: Reading progress bar height option
+- Improvement: WooCommerce better handling for offcanvas quantity buttons
+- Improvement: Post Types Extra and custom fields functionality
+- Improvement: Pop-up content block content container overflow option
+- Fix: Shortcuts bar cart action opens the cart page instead of modal after adding a product to the cart
+
+1.8.7.3-beta2: 2021-07-28
+- Improvement: WooCommerce better handling for offcanvas quantity buttons
+- Improvement: Post Types Extra and custom fields functionality
+- Improvement: Pop-up content block content container overflow option
+- Fix: Shortcuts bar cart action opens the cart page instead of modal after adding a product to the cart
+
+1.8.7.2: 2021-07-26
+- Improvement: Shortcuts bar and off canvas cart trigger
+
+1.8.7.1: 2021-07-23
+- Improvement: Post types filtering option
+- Improvement: Header cart off canvas type
+- Improvement: Trigger correctly the popup from the header button
+
+1.8.7: 2021-07-22
+- New: Mega menu full width content option
+- New: Quick view modal color options
+- New: Ability to set featured image for each taxonomie
+- New: Ability to set different colors for each taxonomy
+- New: Read progress bar for single posts
+- New: Add post types taxonomies AJAX filter
+- New: Estimated read time post meta element/layer
+- New: Ability to add custom fields (ACF, Metabox, Toolset, JetEngine) in CPT's archive and page/post title layers
+- New: Add icon option to header/footer builder buttons
+- New: Allow custom icons upload inside icon picker option
+- New: WooCommerce add possibility to search by SKU
+- New: Content block popup type
+- New: Post Types Extra extension
+- Improvement: Adobe Fonts use css_names instead of slug
+- Improvement: Allow content blocks custom fields to be updated via REST API
+- Improvement: Ignore content blocks from sitemaps generated by SEO plugins
+- Improvement: Add confirmation popup before removing a custom header/footer
+- Improvement: Translateble Shortcuts Bar for WPML
+- Improvement: Contacts footer element responsive visibility option
+- Improvement: Contacts footer element - add option to stack items vertically/horizontally
+- Fix: Wishlist page remove button not working on mobile devices
+- Fix: Search dropdown background color option
+
+1.8.7-beta6: 2021-07-16
+- New: Quick view modal color options
+- New: Ability to set featured image for each taxonomie
+- New: Ability to set different colors for each taxonomie
+- New: Read progress bar for single posts
+- New: Add post types taxonomies AJAX filter
+- New: Estimated read time post meta element/layer
+- New: Ability to add custom fields (ACF, Metabox, Toolset) in CPT's archive and page/post title layers
+- New: Add icon option to header/footer builder buttons
+- New: Allow custom icons upload inside icon picker option
+- New: WooCommerce add possibility to search by SKU
+- New: Content block popup type
+- New: Post Types Extra extension
+- Improvement: Add confirmation popup before removing a custom header/footer
+- Improvement: Translateble Shortcuts Bar for WPML
+- Improvement: Contacts footer element responsive visibility option
+- Improvement: Contacts footer element - add option to stack items vertically/horizontally
+- Fix: Search dropdown background color option
+
+1.8.7-beta4: 2021-07-08
+- New: Allow custom icons upload
+- New: WooCommerce add possibility to search by SKU
+- New: Content block popup type
+- New: Advanced Custom Post types extension
+- Improvement: Translateble Shortcuts Bar for WPML
+- Improvement: Contacts footer element responsive visibility option
+- Improvement: Contacts footer element - add option to stack items vertically/horizontally
+- Fix: Search dropdown background color option
+
+1.8.6.4: 2021-06-24
+- Improvement: General fixes and improvements
+
+1.8.6.3: 2021-06-16
+- New: Add back to top button to shortcuts bar
+- Improvement: Single product wishlist button placement after add to cart button
+- Improvement: Wishlist share box module
+- Improvement: Mega menu dropdown offset improvement
+- Improvement: Auto-open off-canvas functionality
+- Fix: Quick view gallery not displayed correctly in shortcode
+- Fix: Off-canvas filter widgets vertical spacing option
+- Fix: Wishlist page share box CSS
+
+1.8.6.2: 2021-06-11
+- New: Make contacts header item translateable
+- New: Add contacts element to the footer builder
+- New: Shortcuts bar
+- New: Add quantity controls inside WooCommerce off-canvas minicart
+- Improvement: Better handling of Typekit fonts with Stackable
+- Improvement: Quick view button color options
+- Improvement: Mega menu code and functionality improvements
+- Improvement: Search box auto-focus improvement
+- Improvement: Sidebar content block (dynamic) + sticky
+- Improvement: Full width content blocks inside WooCommerce single product tabs
+- Improvement: Hide content block layout/structure options when switched to code editor
+- Improvement: Footer and header content block structure
+- Improvement: WooCommerce account page hooks position
+- Improvement: Remove delay of the offcanvas cart display animation
+- Improvement: Newsletter subscribe module
+- Fix: Floating cart quantity input color
+- Fix: AJAX add to cart floating cart need to hover on form first
+- Fix: Product options button and View cart do not work anymore when quick view trigger is set to card click
+- Fix: My Account wishlist icon in custom slug
+
+1.8.6.2-beta8: 2021-06-09
+- New: Shortcuts bar
+- New: Add quantity controls inside WooCommerce off-canvas minicart
+- Improvement: Better handling of Typekit fonts with Stackable
+- Improvement: Quick view button color options
+- Improvement: Mega menu code and functionality improvements
+- Improvement: Search box auto-focus improvement
+- Improvement: Sidebar content block (dynamic) + sticky
+- Improvement: Full width content blocks inside WooCommerce single product tabs
+- Improvement: Hide content block layout/structure options when switched to code editor
+- Improvement: Footer and header content block structure
+- Improvement: WooCommerce account page hooks position
+- Improvement: Remove delay of the offcanvas cart display animation
+- Improvement: Newsletter subscribe module
+- Fix: Floating cart quantity input color
+- Fix: AJAX add to cart floating cart need to hover on form first
+- Fix: My Account wishlist icon in custom slug
+
+1.8.6.1: 2021-05-12
+- Improvement: White label does not apply to plugin
+- Fix: Product gallery type 4 lightbox
+
+1.8.6: 2021-05-11
+- Improvement: Elementor + content blocks
+- Improvement: Conditions logic for singulars when checked outside main loop
+- Improvement: WooCommerce quick view
+- Improvement: Add color option for search box icon
+- Fix: Desktop off canvas menu duplicates entries
+- Fix: Transparent header + mega menu background color
+
+1.8.6-beta1: 2021-05-07
+- Improvement: Conditions logic for singulars when checked outside main loop
+- Improvement: Add color option for search box icon
+- Fix: Desktop off canvas menu duplicates entries
+- Fix: Transparent header + mega menu background color
+
+1.8.5: 2021-05-01
+- Improvement: General fixes and improvements
+
+1.8.4: 2021-05-01
+- Improvement: WooCommerce wishlist slug
+- Improvement: Floating cart action button height
+
+1.8.0: 2021-04-28
+- New: Mega-menu custom width option
+- New: Filter to change WooCommerce wishlist page url slug
+- New: Integrate content blocks/hooks with multilingual plugins
+- New: Allow `.ttf` file uploads in Custom Fonts extension
+- New: Add footer menu 2
+- New: Conditions Post ID/Page ID/Custom Post Type ID live search
+- New: Floating cart title visibility option
+- New: Trending block extension display conditions & location
+- Improvement: Different trigger label text for desktop/mobile
+- Improvement: RTL - wishlist products table
+- Improvement: White label theme description option
+- Improvement: Smarter call for flush_rewrite_rules() in WooCommerce extra
+- Improvement: Allow duplication of more header dividers
+- Improvement: Floating cart title heading tag
+- Improvement: Wishlist AJAX Add-to-cart
+- Improvement: Content blocks/hooks improvements
+- Fix: WooCommerce cart refresh fragments with conditional headers
+- Fix: Get rid of repeated wp_enqueue_scripts call for content blocks
+- Fix: Contacts header element hide item option
+- Fix: iOS double tap to trigger wish list add
+- Fix: Off-canvas cart drawer position
+- Fix: UAG Content blocks compatibility
+- Fix: Header contacts element icon hover color
+
+1.8.0-beta6: 2021-04-23
+- New: Integrate content blocks/hooks with multilingual plugins
+- Improvement: Different trigger label text for desktop/mobile
+
+1.7.63.8: 2021-04-09
+- New: Allow `.ttf` file uploads in Custom Fonts extension
+- New: Add footer menu 2
+- New: Conditions Post ID/Page ID/Custom Post Type ID live search
+- New: Floating cart title visibility option
+- New: Trending block extension display conditions & location
+- Improvement: RTL - wishlist products table
+- Improvement: White label theme description option
+- Improvement: Smarter call for flush_rewrite_rules() in WooCommerce extra
+- Improvement: Allow duplication of more header dividers
+- Improvement: Floating cart title heading tag
+- Improvement: Wishlist AJAX Add-to-cart
+- Improvement: Content blocks/hooks improvements
+- Fix: WooCommerce cart refresh fragments with conditional headers
+- Fix: Get rid of repeated wp_enqueue_scripts call for content blocks
+- Fix: iOS double tap to trigger wish list add
+- Fix: Off-canvas cart drawer position
+- Fix: UAG Content blocks compatibility
+- Fix: Header contacts element icon hover color
+
+1.7.63.7: 2021-04-06
+- New: Add footer menu 2
+- New: Conditions Post ID/Page ID/Custom Post Type ID live search
+- New: Floating cart title visibility option
+- New: Trending block extension display conditions & location
+- Improvement: RTL - wishlist products table
+- Improvement: Smarter call for flush_rewrite_rules() in WooCommerce extra
+- Improvement: Allow duplication of more header dividers
+- Improvement: Floating cart title heading tag
+- Improvement: Wishlist AJAX Add-to-cart
+- Improvement: Content blocks/hooks improvements
+- Fix: Get rid of repeated wp_enqueue_scripts call for content blocks
+- Fix: iOS double tap to trigger wish list add
+- Fix: Off-canvas cart drawer position
+- Fix: UAG Content blocks compatibility
+- Fix: Header contacts element icon hover color
+
+1.7.63.6: 2021-04-01
+- New: Floating cart title visibility option
+- New: Trending block extension display conditions & location
+- Improvement: RTL - wishlist products table
+- Improvement: Smarter call for flush_rewrite_rules() in WooCommerce extra
+- Improvement: Allow duplication of more header dividers
+- Improvement: Floating cart title heading tag
+- Improvement: Wishlist AJAX Add-to-cart
+- Improvement: Content blocks/hooks improvements
+- Fix: Off-canvas cart drawer position
+- Fix: UAG Content blocks compatibility
+- Fix: Header contacts element icon hover color
+
+1.7.63: 2021-02-24
+- Improvement: Better parsing for headings in content blocks
+
+1.7.62: 2021-02-23
+- Improvement: General fixes and improvements
+
+1.7.61: 2021-02-23
+- Improvement: General fixes and improvements
+
+1.7.60: 2021-02-22
+- New: Color option for "add to wishlist" buttons
+- Improvement: WooCommerce gallery slider
+- Improvement: Change wishlist icon in My Account menu
+- Fix: Automatically open the cart drawer after a product is added to cart
+- Fix: Wishlist last item can't be removed
+
+1.7.59.1: 2021-02-20
+- New: Color option for "add to wishlist" buttons
+- Improvement: WooCommerce gallery slider
+- Improvement: Change wishlist icon in My Account menu
+- Improvement: Wishlist header element label visibility
+- Fix: Wishlist last item can't be removed
+
+1.7.59: 2021-02-16
+- New: Insert content block before a specific number of headings
+
+1.7.57: 2021-02-09
+- Fix: Better logic for Posts with Taxonomy IDs
+
+1.7.56: 2021-02-07
+- Improvement: General fixes and improvements
+
+1.7.55: 2021-02-07
+- New: Add hooks for archive cards
+- New: Add hooks for top and bottom parts of the page and post container
+- New: Add hooks for comment form
+- New: Allow adding dynamic fonts in custom fonts extension
+- New: Add hooks for content blocks after certain number of paragraphs in posts
+- New: WooCommerce gallery slider
+- New: WooCommerce wishlist functionality
+- Improvement: Customizer/dashboard select option
+- Improvement: Off-canvas menu container closed state
+- Improvement: Add vertical spacing options for hooks
+- Improvement: Minor White Label improvements
+- Fix: Content blocks dont load LazyLoadVideos scripts twice
+- Fix: Mega Menu heading color when link is disabled
+
+1.7.54.2: 2021-02-02
+- New: Allow adding dynamic fonts in custom fonts extension
+- Fix: Content blocks dont load LazyLoadVideos scripts twice
+
+1.7.54: 2021-01-28
+- Improvement: General fixes and improvements
+
+1.7.53: 2021-01-26
+- Improvement: General fixes and improvements
+
+1.7.52: 2021-01-23
+- Improvement: General fixes and improvements
+
+1.7.49: 2021-01-23
+- New: Add hook locations for offcanvas cart filter
+- New: Introduce Menu 3 item in header
+- New: Ultimate Blocks support for content blocks
+- New: Content blocks multiple locations
+- New: Use Google Fonts CSS2 in Local Google Fonts
+- New: Open off canvas cart after a product is added to cart
+- Improvement: Language switcher: Hide current language option not working for Polylang
+- Improvement: Hooks: Add compatibility with Product Blocks for WooCommerce plugin
+- Improvement: Open off canvas cart after a product is added to cart
+- Improvement: Cart as offcanvas improve remove button overlaps with close button
+- Improvement: Improve search box item width when inside the middle column
+- Fix: WooCommerce: don't close off canvas cart after removing a product
+- Fix: 404 hook correctly process assets enqueueing
+- Fix: Fix empty cart text color
+- Fix: Avoid conflicts between cloned elements
+- Fix: WooCommerce: don't close off canvas cart after removing one product
+- Fix: Fix menu icons not receiving the active color
+
+1.7.48.1: 2021-01-19
+- New: Introduce Menu 3 item in header
+- New: Ultimate Blocks support for content blocks
+- New: Content blocks multiple locations
+- New: Use Google Fonts CSS2 in Local Google Fonts
+- Improvement: Language switcher: Hide current language option not working for Polylang
+- Improvement: Hooks: Add compatibility with Product Blocks for WooCommerce plugin
+- Improvement: Open off canvas cart after a product is added to cart
+- Fix: WooCommerce: don't close off canvas cart after removing one product
+- Fix: Cart as offcanvas remove button overlaps with close button
+- Fix: 404 hook correctly process assets enqueueing
+- Fix: Fix empty cart text color
+
+1.7.45: 2020-12-31
+- Improvement: General fixes and improvements
+
+1.7.44: 2020-12-28
+- Improvement: Improve content blocks/hooks created with GenerateBlocks
+- Improvement: Improve content blocks/hooks created with Brizy
+
+1.7.43: 2020-12-25
+- New: Floating cart add top & bottom position option
+- Improvement: Custom 404 pages - add content boxed option
+- Improvement: Advanced Menu compatibility with WordPress 5.3
+- Fix: Fix sticky header and floating cart
+- Fix: Filters panel widgets spacing is not applying
+- Fix: Fix freeze for icon picker option
+- Fix: Fix cart drawer width issue
+
+1.7.42: 2020-12-18
+- Fix: Fix freeze for icon picker option
+
+1.7.41: 2020-12-18
+- New: Login/register/forgot password modal hooks
+- New: Add hook to add icon to menu item
+- New: Integrate Custom Fonts extension with Kadence Blocks
+- New: Add margin option to search box item
+- New: Display icons in mobile menu items
+- New: White label: Disable click on dashboard logo for displaying
+- New: White label: A way to force display the white label extension from wp-config.php
+- New: White label: Turn off useful plugins
+- New: White label: Turn off changelogs
+- New: White label: Turn off beta updates section
+- New: White label: Turn off support tickets section from dashboard
+- New: White label: Fix white label update link
+- New: WooCommerce filter - add visibility option
+- New: WooCommerce filter - add alignment option
+- Improvement: Improve off canvas filter drawer
+- Improvement: Correctly detect custom post types archives
+- Improvement: Improve Custom Fonts add variation option
+- Improvement: Improve divider header item (add style and size option)
+- Fix: Fix search placeholder text
+- Fix: Fix icon picker, icons where not displayed correctly
+
+1.7.40.2: 2020-12-07
+- New: Login/register/forgot password modal hooks
+- New: Add hook to add icon to menu item
+- New: Integrate Custom Fonts extension with Kadence Blocks
+- New: Add margin option to search box item
+- New: Display icons in mobile menu items
+- New: White label: Disable click on dashboard logo for displaying
+- New: White label: A way to force display the white label extension from wp-config.php
+- New: White label: Turn off useful plugins
+- New: White label: Turn off changelogs
+- New: White label: Turn off beta updates section
+- New: White label: Turn off support tickets section from dashboard
+- New: White label: Fix white label update link
+- Improvement: Improve off canvas filter drawer
+- Improvement: Correctly detect custom post types archives
+- Improvement: Improve Custom Fonts add variation option
+- Improvement: Improve divider header item (add style and size option)
+- Fix: Fix search placeholder text
+- Fix: Fix icon picker, icons where not displayed correctly
+
+1.7.40.1: 2020-12-07
+- Improvement: Small improvements for white label
+
+1.7.40: 2020-12-04
+- New: Post has taxonomy condition
+- New: Adjust timezone for hook expiration
+- New: Typekit fonts in Elementor
+- New: Add Language Switcher in footer
+- New: Introduce hook for offcanvas, desktop & mobile
+- New: White label PRO icon for admin menu
+- New: Do not apply white label if plan is free
+- New: White label plugin description
+- New: Hide freemius account screen when white label active
+- Improvement: Make Stack columns option responsive in single products
+- Improvement: Contacts CSS snippet from Widgets extension to theme
+- Improvement: Properly output Brizy content blocks
+- Improvement: Improve single product type 2 zoom icon
+- Fix: Cart offcanvas panel width option
+- Fix: Avoid having fonts with the same name
+- Fix: Off-Canvas filter not working on attribute page
+
+1.7.39.1: 2020-12-02
+- Improvement: Properly output Brizy content blocks
+- Fix: Cart offcanvas panel width option
+
+1.7.39: 2020-11-26
+- New: Hide current language option for language switcher
+- New: Implement desktop offcanvas & trigger
+- New: Offcanvas filter as a sidebar area
+- New: Add single product share box
+- New: Add support for variable fonts in Custom Fonts extension
+- New: New single product layout
+- Fix: Fix quick view backdrop
+
+1.7.39-beta2: 2020-11-26
+- Fix for updates
+
+1.7.39-beta1: 2020-11-26
+- New: Hide current language option for language switcher
+- New: Implement desktop offcanvas & trigger
+- New: Offcanvas filter as a sidebar area
+- New: Add single product share box
+- New: Add support for variable fonts in Custom Fonts extension
+- New: New single product layout
+
+1.7.38: 2020-11-23
+- New: Add expiration date for hooks
+- New: Add content and comments hooks
+- New: Add position option for hooks
+- New: Add logo item in footer
+- New: Integrate language switcher with TranslatePress plugin
+- New: Integrate Stackable with custom fonts, Local Google Fonts & Typekit
+- Improvement: Add warning in Code editor button
+- Fix: Fix icon picker issue
+- Fix: Fix contacts element spacing
+
+1.7.38-beta1: 2020-11-20
+- New: Add expiration date for hooks
+- New: Add content and comments hooks
+- New: Add position option for hooks
+- New: Add logo item in footer
+- New: Integrate language switcher with TranslatePress plugin
+- New: Integrate Stackable with custom fonts, Local Google Fonts & Typekit
+- Improvement: Add warning in Code editor button
+- Fix: Fix icon picker issue
+- Fix: Fix contacts element spacing
+
+1.7.33: 2020-11-14
+- Improvement: Content blocks container structure
+
+1.7.33-beta1: 2020-11-13
+- Improvement: Content blocks container structure
+
+1.7.32: 2020-11-13
+- New: Add search box border radius option
+- New: Custom Hook option inside dropdown
+- New: Content Blocks integration with Qubely
+- Improvement: Gutenberg blocks output in hooks
+- Improvement: Add content block structure option
+- Improvement: Add ct-container to 404 content block
+- Improvement: Show Header/Footer blocks inside html tags with schema org markup
+- Fix: Fix advanced menu empty state, when no hooks available
+- Fix: Fix Advanced menu with shortcode inside text area
+- Fix: Fix Advanced menu when there are no content blocks
+
+1.7.32-beta1: 2020-11-12
+- New: Add search box border radius option
+- New: Custom Hook option inside dropdown
+- Improvement: Gutenberg blocks output in hooks
+- Improvement: Add content block structure option
+- Improvement: Add ct-container to 404 content block
+- Improvement: Show Header/Footer blocks inside html tags with schema org markup
+- Fix: Fix advanced menu empty state, when no hooks available
+- Fix: Fix Advanced menu with shortcode inside text area
+- Fix: Fix Advanced menu when there are no content blocks
